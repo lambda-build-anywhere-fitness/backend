@@ -3,6 +3,8 @@ const Users = require('./users-model');
 const restricted = require('../auth/restricted-middleware');
 
 const router = express.Router();
+   
+
 
 router.use(restricted);
 
