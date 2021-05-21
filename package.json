@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/lambda-build-anywhere-fitness/backend/issues"
   },
+  "engines": {
+    "node" : "14.16.1"
+  },
   "homepage": "https://github.com/lambda-build-anywhere-fitness/backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
