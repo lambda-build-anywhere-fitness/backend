@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "| Method        | Endpoint           | Body (required)                       | Body (optional) | Notes                                             |\r | ------------- | ------------------ | ------------------------------------- | --------------- | ------------------------------------------------- |\r | register POST | /api/auth/register | name, email, username, password, role | N/A             | Creates a new user object in the database.        |\r | login POST    | /api/auth/login    | username, password                    | N/A             | Returns a welcome message and the JSON Web Token. |",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambda-build-anywhere-fitness/backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lambda-build-anywhere-fitness/backend/issues"
+  },
+  "homepage": "https://github.com/lambda-build-anywhere-fitness/backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "heroku": "^7.54.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.6"
+  }
+}

@@ -15,4 +15,7 @@ function generateToken(user) {
   return jwt.sign(payload, secret.jwtSecret, options);
 }
 
+
+
+
 module.exports = generateToken;
