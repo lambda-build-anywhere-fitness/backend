@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,15 +17,18 @@
     "url": "https://github.com/lambda-build-anywhere-fitness/backend/issues"
   },
   "engines": {
-    "node" : "14.16.1"
+    "node": "14.16.1"
   },
   "homepage": "https://github.com/lambda-build-anywhere-fitness/backend#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
     "heroku": "^7.54.0",
     "jsonwebtoken": "^8.5.1",
-    "knex": "^0.95.6"
+    "knex": "^0.95.6",
+    "nodemon": "^2.0.7",
+    "sqlite3": "^5.0.2"
   }
 }
